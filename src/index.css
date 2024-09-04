@@ -12,13 +12,13 @@
 
 @layer base {
     ::-webkit-scrollbar-thumb{
-    @apply bg-transparent 
+    @apply bg-transparent shadow-xl
     }
     ::-webkit-scrollbar{
-    @apply w-2 h-2 bg-transparent
+    @apply w-2 h-2 bg-transparent rounded-lg
     }
     ::-webkit-scrollbar-track{
-    @apply rounded-lg shadow-4xl;
+    @apply rounded-lg bg-black
     }
     ::-webkit-scrollbar-thumb{
     @apply rounded-full bg-gradient-to-b from-[#888989] to-[#4A4E54] /*color trackbar*/
